@@ -117,12 +117,12 @@ const PlacedCardsWrapper = styled.div`
 `;
 
 const CardPlaceholder = styled.div<{ showBG: boolean }>`
-    width: 160px;
-    height: 242px;
+    width: 144px;
+    height: 218px;
     background-image: url(${props => props.showBG ? CARD_BACK_IMG : ""});
     background-size: cover;
     border-radius: 16px;
-    margin: 1em;
+    margin: 0.5em;
     display: flex;
     flex-direction: column;
     align-items: center;

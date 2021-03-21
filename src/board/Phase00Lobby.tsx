@@ -17,6 +17,7 @@ type Props = {
 
 const Phase00Lobby = ({ changeName, ready, name, isReady }: Props) => {
     const [playerName, setPlayerName] = useState(name);
+    const [didSave, setDidSave] = useState(false);
     const [textFieldName, setTextFieldName] = useState(name);
 
     return (
@@ -27,7 +28,7 @@ const Phase00Lobby = ({ changeName, ready, name, isReady }: Props) => {
                     <NameTextField type="text" value={textFieldName} onChange={evt => setTextFieldName(evt.target.value)} /> 
                 }
                 {isReady === false &&
-                    <button onClick={() => changeName(textFieldName)} style={{
+                    <button onClick={() => {changeName(textFieldName); setDidSave(true)}} style={{
                         backgroundColor: "#0091FF",
                         outline: "none",
                         border: "none",
@@ -39,7 +40,7 @@ const Phase00Lobby = ({ changeName, ready, name, isReady }: Props) => {
                     </button>
                 }
             </div>
-            {isReady === false &&
+            {isReady === false && didSave &&
                 <button style={{
                     marginTop: "1em",
                     padding: "1em"

@@ -11,7 +11,7 @@ export const DixitClient = ({ debug }) => {
         const SHClient = Client({
             game: Dixit,
             board: Board,
-            numPlayers: 5
+            numPlayers: 6
         });
     
         return <SHClient matchID={"hallowelt"} playerID={"0"} />

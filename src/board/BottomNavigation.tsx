@@ -84,7 +84,7 @@ const Content = styled.div`
     display: flex;
     align-items: center;
     color: white;
-    font-size: 1.3em;
+    font-size: 1.2em;
 `;
 
 

@@ -22,7 +22,7 @@ type Props = {
 }
 
 
-const FACTOR = 0.9;
+const FACTOR = 0.8;
 
 const CARD_DIMENSION = {
     width: `${159 * FACTOR}px`,
