@@ -1,6 +1,6 @@
 # Welcome to Dixit
 
-This is an online game variant of Unstable Unicorns. All you need is a browser and some friends to play with you.
+This is an online game variant of Dixit. All you need is a browser and some friends to play with you.
 
 ![](https://i.imgur.com/L1Qmjqb.png)
 
