@@ -30,5 +30,4 @@ Type `tsc src/server.ts --outDir server_build` to compile the Typescript code in
 
 ## To-Do
 
- - ...
-
+ - English translation
