@@ -2,6 +2,8 @@
 
 This is an online game variant of Unstable Unicorns. All you need is a browser and some friends to play with you.
 
+![](https://i.imgur.com/L1Qmjqb.png)
+
 **Demo:** [dixit-team42.herokuapp.com/:matchID/:numOfPlayers/:playerID](https://dixit-team42.herokuapp.com/hello-world/4/0)
 
 To create a game type the following url into your browser
